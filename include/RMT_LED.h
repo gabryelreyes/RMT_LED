@@ -49,6 +49,9 @@ SOFTWARE.
  * Types and Classes
  *****************************************************************************/
 
+/**
+ * Instance of a single LED controlled through the RMT Peripheral
+ */
 class RMT_LED
 {
 public:
@@ -71,11 +74,12 @@ public:
     /**
      *  RMT LED Constructor
      *  @param[in] ledPin Pin Number of LED
+     *  @param[in] maxBrightness Maximum allowed brightness
      */
     RMT_LED(const uint8_t ledPin, const uint8_t maxBrightness = UINT8_MAX);
 
     /**
-     *  Default Constructor
+     *  Default Destructor
      */
     ~RMT_LED();
 
