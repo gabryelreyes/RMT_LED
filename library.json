@@ -1,0 +1,18 @@
+{
+    "name": "RMT_LED",
+    "version": "0.1.0",
+    "description": "Control of a single addressable LED (WS2812) using the RMT Peripheral of the ESP32",
+    "keywords": "RMT, LED, Addressable, ESP32",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/greyes/RMT_LED"
+    },
+    "authors": [
+        {
+            "name": "Gabryel Reyes",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "platforms": "espressif32"
+}
