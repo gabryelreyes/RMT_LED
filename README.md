@@ -24,6 +24,11 @@ It is possible to set a maximum brightness level (0 - 255) by using the argument
 ## Installation
 Just copy the library into your source files, or if using PlatformIO, add the URL to the Github Repository to your platformio.ini file.
 
+```ini
+lib_deps=
+    https://github.com/gabryelreyes/RMT_LED.git
+```
+
 ## Quick Start
 ```cpp
 
