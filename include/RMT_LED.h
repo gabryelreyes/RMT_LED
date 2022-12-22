@@ -67,6 +67,7 @@ public:
         RED,
         GREEN,
         BLUE,
+        YELLOW,
         WHITE,
         CLEAR
     };

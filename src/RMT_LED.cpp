@@ -56,7 +56,7 @@ static const size_t NUMBER_OF_DATA_BITS = 3U * 8U;
 /**
  *  Number of possible Presets.
  */
-static const size_t NUMBER_OF_PRESETS = 8U;
+static const size_t NUMBER_OF_PRESETS = 9U;
 /**
  * Tick Duration in Nanoseconds.
  */
@@ -111,6 +111,7 @@ RMT_LED::RMT_LED(const uint8_t ledPin, const uint8_t maxBrightness) : m_rmtInsta
         setPreset(RED,      005U, 000U, 000U);
         setPreset(GREEN,    000U, 005U, 000U);
         setPreset(BLUE,     000U, 000U, 005U);
+        setPreset(YELLOW,   005U, 005U, 000U);
         setPreset(WHITE,    005U, 005U, 005U);
         setPreset(CLEAR,    000U, 000U, 000U);
     }
